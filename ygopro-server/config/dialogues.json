@@ -1,0 +1,19 @@
+{
+  "file": "./config/dialogues.json",
+  "dialogues": {
+    "46986414": [
+      "welcome，test，server！"
+    ],
+    "58481572": [
+      "TEST！"
+    ]
+  },
+  "dialogues_custom": {
+    "37564303": [
+      "welcome\test\nserver\nhere"
+    ],
+    "37564765": [
+      "welcome\testt\nstf\nplm"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "file": "./config/words.json",
+  "words": {
+    "test1": [
+      "test_word_1"
+    ],
+    "test2": [
+      "test_word_2"
+    ]
+  }
+}

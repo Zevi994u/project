@@ -1,0 +1,92 @@
+{
+  "badwords": {
+    "file": "./config/badwords.json",
+    "level0": ["zz", "bb", "rr", "tt", "艹", "yy", "日", "曰", "uu", "ii", "bb"],
+    "level1": ["afc", "afs"],
+    "level2": ["asdw", "fffg"],
+    "level3": ["ggfd", "hhgf"]
+  },
+  "tips": {
+    "file": "./config/tips.json",
+    "tips": [
+      "TEST",
+      "TEST"
+    ],
+    "tips_zh": []
+  },
+  "words": {
+    "file": "./config/words.json",
+    "words": {
+      "test1": [
+        "test_word_1"
+      ],
+      "test2": [
+        "test_word_2"
+      ]
+    }
+  },
+  "dialogues": {
+    "file": "./config/dialogues.json",
+    "dialogues": {
+      "46986414": [
+        "welcome，test，server！"
+      ],
+      "58481572": [
+        "TEST！"
+      ]
+    },
+    "dialogues_custom": {
+      "37564303": [
+        "welcome\test\nserver\nhere"
+      ],
+	  "37564765": [
+        "welcome\testt\nstf\nplm"
+      ]
+    }
+  },
+  "users": {
+    "file": "./config/admin_user.json",
+    "permission_examples": {
+      "sudo": {
+        "get_rooms": true,
+        "duel_log": true,
+        "download_replay": true,
+        "clear_duel_log": true,
+        "deck_dashboard_read": true,
+        "deck_dashboard_write": true,
+        "shout": true,
+        "stop": true,
+        "change_settings": true,
+        "ban_user": true,
+        "kick_user": true,
+        "start_death": true,
+        "pre_dashboard": true,
+        "update_dashboard": true,
+        "vip": true
+      },
+      "judge": {
+        "get_rooms": true,
+        "duel_log": true,
+        "download_replay": true,
+        "deck_dashboard_read": true,
+        "deck_dashboard_write": true,
+        "shout": true,
+        "kick_user": true,
+        "start_death": true
+      },
+      "streamer": {
+        "get_rooms": true,
+        "duel_log": true,
+        "download_replay": true,
+        "deck_dashboard_read": true
+      }
+    },
+    "users": {
+      "root": {
+        "password": "123456",
+        "enabled": false,
+        "permissions": "sudo"
+      }
+    }
+  }
+}
