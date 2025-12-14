@@ -1,4 +1,23 @@
 {
+<<<<<<< HEAD
+  "name": "ygopro-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ygopro-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zevi994u/project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Zevi994u/project/issues"
+  },
+  "homepage": "https://github.com/Zevi994u/project#readme",
+  "description": ""
+=======
   "name": "srvpro",
   "version": "2.3.3",
   "description": "a server for ygopro",
@@ -57,4 +76,5 @@
     "coffeescript": "^2.7.0",
     "typescript": "^5.8.3"
   }
+>>>>>>> 10a33d6 (Mutat serverul în rădăcină pentru Render)
 }
