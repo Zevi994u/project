@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
   "name": "ygopro-server",
   "version": "1.0.0",
   "scripts": {
@@ -76,5 +76,5 @@
     "coffeescript": "^2.7.0",
     "typescript": "^5.8.3"
   }
->>>>>>> 10a33d6 (Mutat serverul în rădăcină pentru Render)
+
 }
