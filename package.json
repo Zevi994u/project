@@ -2,7 +2,7 @@
   "name": "ygopro-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "node ygopro-server.js"
+    "start": "ygopro-server.js"
   },
   "repository": {
     "type": "git",
