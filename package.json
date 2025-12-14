@@ -1,26 +1,14 @@
 {
-
   "name": "ygopro-server",
   "version": "1.0.0",
+  "description": "a server for ygopro",
   "scripts": {
-    "start": "node ygopro-server.js"
+    "start": "node ygopro-server.js | bunyan"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zevi994u/project.git"
+    "url": "https://github.com/Zevi994u/project.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "AGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/Zevi994u/project/issues"
-  },
-  "homepage": "https://github.com/Zevi994u/project#readme",
-  "description": ""
-  "name": "srvpro",
-  "version": "2.3.3",
-  "description": "a server for ygopro",
-  "repository": "github:mycard/srvpro",
   "keywords": [
     "mycard",
     "ygopro",
@@ -28,6 +16,11 @@
     "server"
   ],
   "author": "zh99998 <zh99998@gmail.com>, mercury233 <me@mercury233.me>, Nanahira <78877@qq.com>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Zevi994u/project/issues"
+  },
+  "homepage": "https://github.com/Zevi994u/project#readme",
   "dependencies": {
     "aragami": "^1.2.5",
     "async": "^3.2.0",
@@ -56,15 +49,6 @@
     "ws": "^8.9.0",
     "ygopro-deck-encode": "^1.0.9"
   },
-  "license": "AGPL-3.0",
-  "scripts": {
-    "build": "coffee -c *.coffee && tsc",
-    "start": "node ygopro-server.js | bunyan",
-    "tournament": "node ygopro-tournament.js",
-    "pre": "node ygopro-pre.js",
-    "updated": "node ygopro-update.js",
-    "webhook": "node ygopro-webhook.js"
-  },
   "devDependencies": {
     "@types/bunyan": "^1.8.8",
     "@types/ip6addr": "^0.2.3",
@@ -75,5 +59,4 @@
     "coffeescript": "^2.7.0",
     "typescript": "^5.8.3"
   }
-
 }
